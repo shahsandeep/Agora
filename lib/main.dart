@@ -47,6 +47,7 @@ void main() async {
         }
       },
       child: ConnectivityAppWrapper(
+
         app: MaterialApp(
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
@@ -72,8 +73,9 @@ void main() async {
 
           builder: (buildContext, widget) {
             return ConnectivityWidgetWrapper(
-              disableInteraction: true,
+
               height: 80,
+              alignment: Alignment.topCenter,
               child: widget!,
             );
           },
