@@ -24,8 +24,8 @@ This project uses **Flutter version 3.24.4**.
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/shahsandeep/agora_call.git
-   cd agora_call
+   git clone https://github.com/shahsandeep/Agora.git
+   cd Agora
    ```
 2. **Install dependencies:**
 
@@ -96,7 +96,7 @@ This project uses **Flutter version 3.24.4**.
 
 For help getting started with Flutter development, view the [online documentation](https://docs.flutter.dev/), which offers tutorials, samples, guidance on mobile development, and a full API reference.
 
-# Agora Flutter SDK Setup with Agora UIKit
+## Agora Flutter SDK Setup with Agora UIKit
 
 ## Overview
 
@@ -108,9 +108,9 @@ This guide provides the high-level steps to set up and configure the Agora Flutt
 
 ### 1. Create an Agora Account
 
-* Sign up or log in at the [Agora Console]().
+* Sign up or log in at the [Agora Console](https://https://console.agora.io/).
 * Create a new project and obtain the  **App ID** .
-* (Optional) Generate a temporary token for testing.
+* Generate a temporary token for testing.
 
 ### 2. Add Dependencies
 
@@ -150,7 +150,9 @@ This guide provides the high-level steps to set up and configure the Agora Flutt
 
 ### APKs
 
-Download the APKs for the Agora Call Application from the following link: [APKs Download](https://drive.google.com/drive/folders/16C14tRzredKhMGqfBM-oGd4TaPkAInZm?usp=drive_link)
+Download APKs from the GitHub Releases section or via a direct download link.
+
+Download the APKs for the Agora Call Application from the following link: [APKs Downloa](https://drive.google.com/drive/folders/16C14tRzredKhMGqfBM-oGd4TaPkAInZm?usp=drive_link)d
 
 ### Demo Video
 
