@@ -15,7 +15,20 @@ class HiveLocalStorage {
   }
 
   List<UserModel>? getData(String key) {
-    return box.get(key);
+    final data = box.get(key);
+    if (data == null) return null;
+
+    if (data is List<UserModel>) return data;
+
+    if (data is List) {
+      return data.map((e) {
+        if (e is UserModel) return e;
+        if (e is Map) return UserModel.fromMap(Map<String, dynamic>.from(e));
+        return null;
+      }).whereType<UserModel>().toList();
+    }
+
+    return null;
   }
 
   Future<void> deleteData(String key) async {

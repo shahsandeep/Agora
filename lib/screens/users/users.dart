@@ -32,12 +32,21 @@ class _UsersScreenState extends State<UsersScreen> {
             itemCount: users.length,
             itemBuilder: (context, index) {
               final user = users[index];
-              return ListTile(
+                return ListTile(
                 key: ValueKey(user.id),
-                leading: CircleAvatar(
-                  backgroundImage:
-                      NetworkImage(user.avatar ?? ''),
-                ),
+                leading: user.avatar != null && user.avatar!.isNotEmpty
+                    ? ClipOval(
+                        child: Image.network(
+                          user.avatar!,
+                          width: 40,
+                          height: 40,
+                          fit: BoxFit.cover,
+                          errorBuilder: (context, error, stackTrace) {
+                            return const Icon(Icons.person, size: 40);
+                          },
+                        ),
+                      )
+                    :  const Icon(Icons.person, size: 40),
                 title: Text(user.firstName),
                 subtitle: Text(user.email),
               );
