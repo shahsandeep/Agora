@@ -45,7 +45,7 @@ This project uses **Flutter version 3.24.4**.
 ### Usage
 
 1. **Launch the app on two devices.**
-2. **Proceed login with autofilled credentials.** 
+2. **Proceed login with autofilled credentials.**
 3. **From Bottom Navigation bar select calls or Users as per the requirement.**
 4. **On the first device, select "I am Caller".**
 5. **On the second device, select "I am Receiver".**
@@ -95,6 +95,58 @@ This project uses **Flutter version 3.24.4**.
 - **shared_preferences:** ^2.5.3
 
 For help getting started with Flutter development, view the [online documentation](https://docs.flutter.dev/), which offers tutorials, samples, guidance on mobile development, and a full API reference.
+
+# Agora Flutter SDK Setup with Agora UIKit
+
+## Overview
+
+This guide provides the high-level steps to set up and configure the Agora Flutter SDK using  **Agora UIKit** . Agora UIKit simplifies integration by offering ready-to-use video calling components.
+
+---
+
+## Setup Steps
+
+### 1. Create an Agora Account
+
+* Sign up or log in at the [Agora Console]().
+* Create a new project and obtain the  **App ID** .
+* (Optional) Generate a temporary token for testing.
+
+### 2. Add Dependencies
+
+* Add the **Agora UIKit** dependency to your Flutter project.
+* Run package installation to fetch the SDK.
+
+### 3. iOS Configuration
+
+* Update `Info.plist` with required camera and microphone permissions.
+* Set the minimum iOS deployment target (12.0 or higher).
+
+### 4. Android Configuration
+
+* Update `AndroidManifest.xml` with required permissions (Internet, Camera, Microphone).
+
+### 5. Initialize the SDK
+
+* Configure Agora connection data with your App ID, channel name, and token (if used).
+* Initialize the Agora client before usage.
+
+### 6. Integrate UI Components
+
+* Use Agora UIKit’s prebuilt widgets to quickly integrate video calling UI.
+
+### 7. Testing
+
+* Run the app on a physical device.
+* Join the same channel from multiple devices to verify video/audio functionality.
+
+---
+
+## Documentation
+
+* [Agora Flutter SDK Docs]()
+* [Agora UIKit for Flutter (pub.dev)]()
+* [Agora Developer Guide]()
 
 ### APKs
 
