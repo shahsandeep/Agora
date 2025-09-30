@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:agora_call/models/agora_model.dart';
-import 'package:agora_call/service/firebase_service.dart';
+import 'package:agora_call/services/firebase_service.dart';
 import 'package:agora_call/utils/const/const.dart';
 import 'package:agora_call/utils/helper/helper.dart';
 import 'package:agora_rtc_engine/agora_rtc_engine.dart';

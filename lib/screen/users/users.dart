@@ -19,9 +19,7 @@ class _UsersScreenState extends State<UsersScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Users'),
-      ),
+
       body: BlocBuilder<UserCubit, UserState>(builder: (context, state) {
         if (state.status == UserStatus.loading) {
           return const Center(child: CircularProgressIndicator());

@@ -5,8 +5,8 @@ import 'package:agora_call/models/user_model.dart';
 import 'package:agora_call/screen/auth/login_screen.dart';
 import 'package:agora_call/screen/splash/splash.dart';
 import 'package:agora_call/screen/users/bloc/cubit/user_cubit.dart';
-import 'package:agora_call/service/local_storage.dart';
-import 'package:agora_call/service/shared_pref.dart';
+import 'package:agora_call/services/local_storage.dart';
+import 'package:agora_call/services/shared_pref.dart';
 import 'package:agora_call/utils/const/const.dart';
 import 'package:connectivity_wrapper/connectivity_wrapper.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -22,7 +22,7 @@ void main() async {
   Hive.registerAdapter(UserModelAdapter());
   await Hive.openBox('localStorageBox');
   await Firebase.initializeApp();
-  final localStorage = HiveLocalStorage();
+  final localStorage = HiveLocalStorage.instance;
 
   final apiCalls = ApiCalls(localStorage: localStorage );
 

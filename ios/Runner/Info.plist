@@ -28,10 +28,11 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
-	<key>NSCameraUsageDescription</key>
-	<string>camera</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>microphone</string>
+<key>NSCameraUsageDescription</key>
+<string>We need access to your camera for video calls</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>We need access to your microphone for audio calls</string>
+
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

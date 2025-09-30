@@ -2,7 +2,7 @@ import 'package:agora_call/models/user_model.dart';
 import 'package:agora_call/utils/const/const.dart';
 import 'package:dio/dio.dart';
 
-import '../service/local_storage.dart';
+import '../services/local_storage.dart';
 
 class ApiCalls {
  late final HiveLocalStorage localStorage;

@@ -8,7 +8,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 
-import '../../service/firebase_service.dart';
+import '../../services/firebase_service.dart';
 import '../../utils/helper/helper.dart';
 
 class AgoraAudioCall extends StatefulWidget {
