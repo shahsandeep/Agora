@@ -1,10 +1,10 @@
 import 'package:agora_call/api/api.dart';
-import 'package:agora_call/bloc/cubit/auth_cubit.dart';
-import 'package:agora_call/bloc/cubit/auth_state.dart';
+import 'package:agora_call/cubit/auth_cubit.dart';
+import 'package:agora_call/cubit/auth_state.dart';
 import 'package:agora_call/models/user_model.dart';
-import 'package:agora_call/screen/auth/login_screen.dart';
-import 'package:agora_call/screen/splash/splash.dart';
-import 'package:agora_call/screen/users/bloc/cubit/user_cubit.dart';
+import 'package:agora_call/screens/auth/login_screen.dart';
+import 'package:agora_call/screens/splash/splash.dart';
+import 'package:agora_call/screens/users/bloc/cubit/user_cubit.dart';
 import 'package:agora_call/services/local_storage.dart';
 import 'package:agora_call/services/shared_pref.dart';
 import 'package:agora_call/utils/const/const.dart';

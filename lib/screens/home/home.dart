@@ -1,13 +1,11 @@
-import 'package:agora_call/screen/call/call_home.dart';
-import 'package:agora_call/screen/call/caller_screen.dart';
+import 'package:agora_call/screens/call/call_home.dart';
 import 'package:agora_call/widget/permission_screen.dart';
-import 'package:agora_call/screen/call/recieve_call_screen.dart';
-import 'package:agora_call/screen/users/users.dart';
+import 'package:agora_call/screens/users/users.dart';
 import 'package:agora_call/utils/helper/helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../bloc/cubit/auth_cubit.dart';
+import '../../cubit/auth_cubit.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

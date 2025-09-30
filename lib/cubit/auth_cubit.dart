@@ -1,5 +1,5 @@
 import 'package:agora_call/api/api.dart';
-import 'package:agora_call/bloc/cubit/auth_state.dart';
+import 'package:agora_call/cubit/auth_state.dart';
 import 'package:agora_call/services/shared_pref.dart';
 import 'package:bloc/bloc.dart';
 

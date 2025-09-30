@@ -10,7 +10,9 @@ class AgoraConstants {
   // static const token =
   // '007eJxSYNB4YZHL7XH+4vMnp42EPu49d0+yd+rq92kKW7it2UvzFe4qMKQmJ1maJxsmmltYmpsYpSRaGKaap5gbmlkYmVgYJqeYSHYdTndYo85gpZnJysjAyMDCwMgA4jOBSWYwyQImORkS0/OLEktSi0sYGAABAAD//3xlJNw=';
 
-  static const token = '007eJxTYFgddyD48IcLr+Qqpi4WLb306e/s+Os+sVZ2ay7khUxq2PFMgcHcNDExKdnA3CDJyMTEwizJMjXJPMUgJc0ixdTUJDXNxHrxrYyGQEaGfJctrIwMEAjiczIkpucXJZakFpcwMAAADMkk7g==';
+  // static const token = '007eJxTYFgddyD48IcLr+Qqpi4WLb306e/s+Os+sVZ2ay7khUxq2PFMgcHcNDExKdnA3CDJyMTEwizJMjXJPMUgJc0ixdTUJDXNxHrxrYyGQEaGfJctrIwMEAjiczIkpucXJZakFpcwMAAADMkk7g==';
+
+  static const token = '007eJxSYHDqvPcn5OxNjnfWK+M51uin1PzZOaMsY6HMwSnm+f+vmv9UYDA3TUxMSjYwN0gyMjGxMEuyTE0yTzFISbNIMTU1SU0zmT3vdkZDICPDl5ILDIwMjAwsDIwMID4TmGQGkyxgkpMhMT2/KLEktbiEgQEQAAD//2BTJ5g=';
   static GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
   static const String baseUrl = "https://reqres.in/api";
 

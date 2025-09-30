@@ -1,7 +1,7 @@
 import 'package:agora_call/models/agora_model.dart';
 
-import 'package:agora_call/screen/call/audio_call.dart';
-import 'package:agora_call/screen/call/video_call.dart';
+import 'package:agora_call/screens/call/audio_call.dart';
+import 'package:agora_call/screens/call/video_call.dart';
 import 'package:agora_call/utils/const/const.dart';
 import 'package:flutter/material.dart';
 

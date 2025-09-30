@@ -1,6 +1,6 @@
 import 'package:agora_call/services/firebase_service.dart';
-import 'package:agora_call/screen/call/audio_call.dart';
-import 'package:agora_call/screen/call/video_call.dart';
+import 'package:agora_call/screens/call/audio_call.dart';
+import 'package:agora_call/screens/call/video_call.dart';
 import 'package:agora_call/utils/const/const.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';

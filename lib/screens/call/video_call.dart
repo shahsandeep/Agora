@@ -123,7 +123,7 @@ class _AgoraVideoCallState extends State<AgoraVideoCall> {
             isScreenSharing = shared;
           });
         }
-        print('screen share changed: $shared');
+
       });
     }
   }
@@ -241,7 +241,7 @@ class _AgoraVideoCallState extends State<AgoraVideoCall> {
                             children: [
                               AgoraVideoViewer(
                                 client: client!,
-                                layoutType: Layout.grid,
+                                layoutType: Layout.oneToOne,
                                 showNumberOfUsers: true,
                                 renderModeType: RenderModeType.renderModeAdaptive,
                               ),

@@ -1,10 +1,10 @@
-import 'package:agora_call/bloc/cubit/auth_state.dart';
+import 'package:agora_call/cubit/auth_state.dart';
 
 import 'package:agora_call/utils/helper/helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../bloc/cubit/auth_cubit.dart';
+import '../../cubit/auth_cubit.dart';
 import '../../utils/const/const.dart';
 
 import '../home/home.dart';

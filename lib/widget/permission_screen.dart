@@ -2,7 +2,7 @@
 import 'package:agora_call/utils/helper/helper.dart';
 import 'package:flutter/material.dart';
 
-import '../screen/home/home.dart';
+import '../screens/home/home.dart';
 
 class PermissionScreen extends StatelessWidget {
   const PermissionScreen({super.key});

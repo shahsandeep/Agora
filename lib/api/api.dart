@@ -74,7 +74,7 @@ Future<List<UserModel>> _fetchAndUpdateUsers(String hiveKey, void Function(List<
           .map((user) => UserModel.fromMap(user))
           .toList();
       await localStorage.saveData(hiveKey, apiUsers);
-      if (onUpdated != null) onUpdated(apiUsers); // Notify UI
+      if (onUpdated != null) onUpdated(apiUsers); 
       return apiUsers;
     } else {
       throw Exception('Failed to fetch users');
